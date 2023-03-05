@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Check if an Element is Present in an Array in JavaScript</title>
+</head>
+<body>
+    <script>    
+    var colours = ["Red", "Green", "Yellow", "Red"];
+    
+    // Check if a value exists in the fruits array
+    if(colours.indexOf("Red") !== -1){
+        document.write("Red already exists!")
+    } else{
+        document.write("Red does not exists!")
+    }
+    </script>
+</body>
+</html>  
